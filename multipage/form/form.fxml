@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multipage.form.Form">
+   <children>
+      <Button layoutX="41.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnBack" text="&lt;&lt;back to list" />
+      <TextField fx:id="code" layoutX="131.0" layoutY="88.0" prefHeight="25.0" prefWidth="268.0" promptText="code" />
+      <TextField fx:id="name" layoutX="131.0" layoutY="128.0" prefHeight="25.0" prefWidth="268.0" promptText="name" />
+      <TextField layoutX="131.0" layoutY="175.0" prefHeight="25.0" prefWidth="268.0" promptText="hours" />
+      <Button layoutX="347.0" layoutY="223.0" mnemonicParsing="false"  text="save" />
+   </children>
+</AnchorPane>
